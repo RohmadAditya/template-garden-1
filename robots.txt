@@ -1,0 +1,7 @@
+# robots.txt for NusaGarden Landscape
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://nusagarden.com/sitemap.xml
+
