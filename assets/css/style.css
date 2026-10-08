@@ -426,7 +426,8 @@ p:last-child { margin-bottom: 0; }
    ========================================================================== */
 .hero {
   position: relative;
-  background: linear-gradient(135deg, #0d2818 0%, #1b4332 60%, #2d6a4f 100%);
+  background: linear-gradient(135deg, rgba(13, 40, 24, 0.88) 0%, rgba(27, 67, 50, 0.82) 60%, rgba(45, 106, 79, 0.76) 100%),
+              url('../images/hero-bg-home.jpg') center/cover no-repeat;
   color: var(--white);
   padding: 5.5rem 0 6.5rem 0;
   overflow: hidden;
@@ -576,11 +577,33 @@ p:last-child { margin-bottom: 0; }
    Page Headers (Profil, Layanan, Proyek, Kontak)
    ========================================================================== */
 .page-hero {
-  background: linear-gradient(135deg, #0d2818 0%, #1b4332 100%);
-  color: var(--white);
-  padding: 4.5rem 0 4rem 0;
-  text-align: center;
   position: relative;
+  background: linear-gradient(135deg, rgba(13, 40, 24, 0.88) 0%, rgba(27, 67, 50, 0.84) 100%),
+              url('../images/hero-bg-profil.jpg') center/cover no-repeat;
+  color: var(--white);
+  padding: 5rem 0 4.5rem 0;
+  text-align: center;
+  overflow: hidden;
+}
+
+.page-hero.hero-profil {
+  background: linear-gradient(135deg, rgba(13, 40, 24, 0.88) 0%, rgba(27, 67, 50, 0.84) 100%),
+              url('../images/hero-bg-profil.jpg') center/cover no-repeat;
+}
+
+.page-hero.hero-layanan {
+  background: linear-gradient(135deg, rgba(13, 40, 24, 0.88) 0%, rgba(27, 67, 50, 0.84) 100%),
+              url('../images/hero-bg-layanan.jpg') center/cover no-repeat;
+}
+
+.page-hero.hero-proyek {
+  background: linear-gradient(135deg, rgba(13, 40, 24, 0.88) 0%, rgba(27, 67, 50, 0.84) 100%),
+              url('../images/hero-bg-proyek.jpg') center/cover no-repeat;
+}
+
+.page-hero.hero-kontak {
+  background: linear-gradient(135deg, rgba(13, 40, 24, 0.88) 0%, rgba(27, 67, 50, 0.84) 100%),
+              url('../images/hero-bg-kontak.jpg') center/cover no-repeat;
 }
 
 .page-hero h1 {
@@ -1468,14 +1491,16 @@ p:last-child { margin-bottom: 0; }
    CTA Banner
    ========================================================================== */
 .cta-banner {
-  background: linear-gradient(135deg, #0d2818 0%, #1b4332 70%, #2d6a4f 100%);
+  position: relative;
+  background: linear-gradient(135deg, rgba(13, 40, 24, 0.90) 0%, rgba(27, 67, 50, 0.88) 60%, rgba(45, 106, 79, 0.82) 100%),
+              url('../images/cta-bg-home.jpg') center/cover no-repeat;
   color: var(--white);
   border-radius: var(--radius-xl);
-  padding: 4rem 3rem;
+  padding: 4.5rem 3rem;
   text-align: center;
   box-shadow: var(--shadow-xl);
-  position: relative;
   overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 .cta-banner::before {
@@ -1485,9 +1510,34 @@ p:last-child { margin-bottom: 0; }
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: radial-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  background-image: radial-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px);
   background-size: 20px 20px;
   pointer-events: none;
+}
+
+.cta-banner.cta-home {
+  background: linear-gradient(135deg, rgba(13, 40, 24, 0.90) 0%, rgba(27, 67, 50, 0.88) 60%, rgba(45, 106, 79, 0.82) 100%),
+              url('../images/cta-bg-home.jpg') center/cover no-repeat;
+}
+
+.cta-banner.cta-profil {
+  background: linear-gradient(135deg, rgba(13, 40, 24, 0.90) 0%, rgba(27, 67, 50, 0.88) 60%, rgba(45, 106, 79, 0.82) 100%),
+              url('../images/cta-bg-profil.jpg') center/cover no-repeat;
+}
+
+.cta-banner.cta-layanan {
+  background: linear-gradient(135deg, rgba(13, 40, 24, 0.90) 0%, rgba(27, 67, 50, 0.88) 60%, rgba(45, 106, 79, 0.82) 100%),
+              url('../images/cta-bg-layanan.jpg') center/cover no-repeat;
+}
+
+.cta-banner.cta-proyek {
+  background: linear-gradient(135deg, rgba(13, 40, 24, 0.90) 0%, rgba(27, 67, 50, 0.88) 60%, rgba(45, 106, 79, 0.82) 100%),
+              url('../images/cta-bg-proyek.jpg') center/cover no-repeat;
+}
+
+.cta-banner.cta-kontak {
+  background: linear-gradient(135deg, rgba(13, 40, 24, 0.90) 0%, rgba(27, 67, 50, 0.88) 60%, rgba(45, 106, 79, 0.82) 100%),
+              url('../images/cta-bg-kontak.jpg') center/cover no-repeat;
 }
 
 .cta-banner h2 {
@@ -1880,6 +1930,18 @@ textarea.form-control {
   flex-wrap: wrap;
   gap: 1rem;
   font-size: 0.85rem;
+}
+
+.footer-bottom a {
+  color: var(--primary-400);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color var(--transition-fast), text-decoration var(--transition-fast);
+}
+
+.footer-bottom a:hover {
+  color: var(--primary-300);
+  text-decoration: underline;
 }
 
 .footer-seo-keywords {
