@@ -923,8 +923,16 @@ p:last-child { margin-bottom: 0; }
 }
 
 .type-option-icon {
-  font-size: 1.5rem;
-  margin-bottom: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.35rem;
+  color: var(--primary-700);
+}
+
+.type-option-icon svg {
+  width: 24px;
+  height: 24px;
 }
 
 .type-option-name {
