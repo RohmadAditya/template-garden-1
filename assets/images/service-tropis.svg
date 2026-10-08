@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="tropSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bae6fd"/>
+      <stop offset="100%" stop-color="#fef3c7"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#tropSky)"/>
+  <rect x="0" y="420" width="800" height="180" fill="#15803d"/>
+
+  <!-- Balinese Stone Relief Wall -->
+  <rect x="180" y="240" width="440" height="200" fill="#78350f" opacity="0.3" rx="8"/>
+
+  <!-- Palm Tree & Heliconia (Banana Leaves) -->
+  <g>
+    <!-- Trunk -->
+    <path d="M120,520 Q140,300 200,160" stroke="#78350f" stroke-width="24" fill="none"/>
+    <!-- Palm Fronds -->
+    <path d="M200,160 Q100,120 40,160" stroke="#16a34a" stroke-width="10" fill="none"/>
+    <path d="M200,160 Q140,80 80,80" stroke="#22c55e" stroke-width="10" fill="none"/>
+    <path d="M200,160 Q220,60 260,80" stroke="#15803d" stroke-width="10" fill="none"/>
+    <path d="M200,160 Q280,100 340,140" stroke="#22c55e" stroke-width="10" fill="none"/>
+    <path d="M200,160 Q260,180 320,220" stroke="#16a34a" stroke-width="10" fill="none"/>
+  </g>
+
+  <!-- Big Heliconia Leaves (Center & Right) -->
+  <g fill="#166534">
+    <ellipse cx="440" cy="380" rx="40" ry="120" transform="rotate(-25 440 380)"/>
+    <ellipse cx="520" cy="370" rx="45" ry="130" transform="rotate(15 520 370)"/>
+    <ellipse cx="600" cy="400" rx="35" ry="110" transform="rotate(35 600 400)"/>
+  </g>
+  <g fill="#22c55e">
+    <ellipse cx="410" cy="400" rx="35" ry="100" transform="rotate(-35 410 400)"/>
+    <ellipse cx="480" cy="390" rx="40" ry="110" transform="rotate(5 480 390)"/>
+    <ellipse cx="560" cy="410" rx="35" ry="100" transform="rotate(25 560 410)"/>
+  </g>
+
+  <!-- Red Tropical Bird of Paradise Flower -->
+  <g transform="translate(480, 310)">
+    <path d="M0,0 Q20,-30 40,-40 Q30,-20 0,0 Z" fill="#ef4444"/>
+    <path d="M0,0 Q10,-35 25,-55 Q15,-25 0,0 Z" fill="#f97316"/>
+    <path d="M0,0 Q0,-40 5,-65 Q-5,-30 0,0 Z" fill="#eab308"/>
+  </g>
+
+  <rect x="30" y="30" width="220" height="40" rx="20" fill="#1b4332"/>
+  <text x="140" y="55" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="14" text-anchor="middle">Taman Tropis Nuansa Bali</text>
+</svg>

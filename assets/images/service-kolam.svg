@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="pondWater" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#0369a1"/>
+    </linearGradient>
+    <linearGradient id="stoneWall" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#475569"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Yard -->
+  <rect width="800" height="600" fill="#22c55e"/>
+  
+  <!-- Andesite Waterfall Wall Behind -->
+  <rect x="140" y="40" width="520" height="220" fill="url(#stoneWall)" rx="8"/>
+  <!-- Waterfall Spout & Flow -->
+  <rect x="340" y="140" width="120" height="15" fill="#0f172a"/>
+  <path d="M340,155 L320,260 L480,260 L460,155 Z" fill="#bae6fd" opacity="0.8"/>
+  <ellipse cx="400" cy="260" rx="80" ry="15" fill="#ffffff" opacity="0.6"/>
+
+  <!-- Pond Body -->
+  <rect x="100" y="240" width="600" height="320" rx="24" fill="#334155"/>
+  <rect x="120" y="260" width="560" height="280" rx="16" fill="url(#pondWater)"/>
+
+  <!-- Glass Front Rim Accent -->
+  <rect x="120" y="520" width="560" height="20" fill="#7dd3fc" opacity="0.5"/>
+
+  <!-- Swimming Koi Fish (Kohaku White & Red) -->
+  <!-- Koi 1 -->
+  <g transform="translate(300, 360) rotate(-25)">
+    <path d="M0,0 Q35,-15 70,0 Q35,15 0,0 Z" fill="#ffffff"/>
+    <circle cx="35" cy="-2" r="10" fill="#ef4444"/>
+    <circle cx="50" cy="2" r="8" fill="#ef4444"/>
+    <polygon points="70,0 95,-12 90,0 95,12" fill="#ffffff" opacity="0.8"/>
+    <circle cx="12" cy="-4" r="2" fill="#0f172a"/>
+  </g>
+  <!-- Koi 2 -->
+  <g transform="translate(480, 430) rotate(140)">
+    <path d="M0,0 Q35,-15 70,0 Q35,15 0,0 Z" fill="#f97316"/>
+    <circle cx="28" cy="2" r="10" fill="#000000"/>
+    <polygon points="70,0 95,-12 90,0 95,12" fill="#fed7aa" opacity="0.8"/>
+    <circle cx="12" cy="-4" r="2" fill="#ffffff"/>
+  </g>
+  <!-- Koi 3 -->
+  <g transform="translate(240, 450) rotate(35)">
+    <path d="M0,0 Q30,-12 60,0 Q30,12 0,0 Z" fill="#ffffff"/>
+    <circle cx="24" cy="-2" r="9" fill="#ef4444"/>
+    <polygon points="60,0 80,-10 75,0 80,10" fill="#ffffff" opacity="0.8"/>
+  </g>
+
+  <!-- Water Lily Leaves -->
+  <ellipse cx="580" cy="320" rx="35" ry="18" fill="#15803d"/>
+  <path d="M580,320 L610,315 L595,335 Z" fill="url(#pondWater)"/>
+  <circle cx="585" cy="315" r="8" fill="#f472b6"/>
+
+  <rect x="30" y="30" width="220" height="40" rx="20" fill="#1b4332"/>
+  <text x="140" y="55" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="14" text-anchor="middle">Kolam Koi & Waterfall</text>
+</svg>

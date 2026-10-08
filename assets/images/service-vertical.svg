@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="wallBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#wallBg)"/>
+  
+  <!-- Vertical Grid Wall Structure -->
+  <rect x="80" y="60" width="640" height="480" fill="#334155" rx="12"/>
+  
+  <!-- Rows of Dense Lush Green Foliage -->
+  <!-- Layer 1: Dark Green Base -->
+  <g fill="#166534">
+    <ellipse cx="160" cy="120" rx="60" ry="40"/>
+    <ellipse cx="280" cy="130" rx="70" ry="45"/>
+    <ellipse cx="400" cy="115" rx="65" ry="40"/>
+    <ellipse cx="520" cy="125" rx="75" ry="45"/>
+    <ellipse cx="640" cy="120" rx="60" ry="40"/>
+
+    <ellipse cx="140" cy="220" rx="65" ry="45"/>
+    <ellipse cx="260" cy="230" rx="75" ry="45"/>
+    <ellipse cx="380" cy="215" rx="70" ry="40"/>
+    <ellipse cx="500" cy="225" rx="80" ry="50"/>
+    <ellipse cx="620" cy="220" rx="65" ry="45"/>
+
+    <ellipse cx="160" cy="330" rx="70" ry="45"/>
+    <ellipse cx="280" cy="340" rx="80" ry="50"/>
+    <ellipse cx="400" cy="325" rx="75" ry="45"/>
+    <ellipse cx="520" cy="335" rx="85" ry="50"/>
+    <ellipse cx="640" cy="330" rx="70" ry="45"/>
+
+    <ellipse cx="150" cy="440" rx="75" ry="50"/>
+    <ellipse cx="270" cy="450" rx="85" ry="55"/>
+    <ellipse cx="390" cy="435" rx="80" ry="50"/>
+    <ellipse cx="510" cy="445" rx="90" ry="55"/>
+    <ellipse cx="630" cy="440" rx="75" ry="50"/>
+  </g>
+
+  <!-- Layer 2: Vibrant Bright Leaves (Lime & Emerald) -->
+  <g fill="#22c55e">
+    <ellipse cx="200" cy="140" rx="50" ry="35"/>
+    <ellipse cx="340" cy="135" rx="55" ry="35"/>
+    <ellipse cx="460" cy="145" rx="60" ry="40"/>
+    <ellipse cx="580" cy="130" rx="50" ry="35"/>
+
+    <ellipse cx="190" cy="245" rx="55" ry="38"/>
+    <ellipse cx="320" cy="240" rx="60" ry="40"/>
+    <ellipse cx="440" cy="250" rx="65" ry="42"/>
+    <ellipse cx="570" cy="235" rx="55" ry="38"/>
+
+    <ellipse cx="210" cy="355" rx="60" ry="40"/>
+    <ellipse cx="340" cy="350" rx="65" ry="42"/>
+    <ellipse cx="460" cy="360" rx="70" ry="45"/>
+    <ellipse cx="590" cy="345" rx="60" ry="40"/>
+
+    <ellipse cx="200" cy="465" rx="65" ry="45"/>
+    <ellipse cx="330" cy="460" rx="70" ry="45"/>
+    <ellipse cx="450" cy="470" rx="75" ry="48"/>
+    <ellipse cx="580" cy="455" rx="65" ry="45"/>
+  </g>
+
+  <!-- Layer 3: Highlight Accents (Red & Variegated) -->
+  <g fill="#f87171" opacity="0.85">
+    <circle cx="270" cy="210" r="14"/>
+    <circle cx="490" cy="190" r="16"/>
+    <circle cx="360" cy="310" r="18"/>
+    <circle cx="550" cy="410" r="16"/>
+  </g>
+
+  <!-- Irrigation Pipe Line -->
+  <line x1="80" y1="530" x2="720" y2="530" stroke="#0ea5e9" stroke-width="4"/>
+
+  <rect x="30" y="30" width="220" height="40" rx="20" fill="#1b4332"/>
+  <text x="140" y="55" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="14" text-anchor="middle">Vertical Living Wall</text>
+</svg>

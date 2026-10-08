@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="afterSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="60%" stop-color="#bae6fd"/>
+      <stop offset="100%" stop-color="#fef08a"/>
+    </linearGradient>
+    <linearGradient id="afterGrass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4ade80"/>
+      <stop offset="100%" stop-color="#15803d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#afterSky)"/>
+  <circle cx="1000" cy="150" r="70" fill="#fef08a" opacity="0.9"/>
+
+  <!-- Modern White Clean Wall with Lighting -->
+  <rect x="0" y="220" width="1200" height="260" fill="#f8fafc"/>
+  <line x1="0" y1="220" x2="1200" y2="220" stroke="#0f172a" stroke-width="8"/>
+
+  <!-- Spotlights on Wall -->
+  <polygon points="300,220 220,380 380,380" fill="#fef08a" opacity="0.4"/>
+  <polygon points="700,220 620,380 780,380" fill="#fef08a" opacity="0.4"/>
+  <polygon points="1000,220 920,380 1080,380" fill="#fef08a" opacity="0.4"/>
+
+  <!-- Manicured Grass Lawn -->
+  <rect x="0" y="440" width="1200" height="360" fill="url(#afterGrass)"/>
+
+  <!-- Stepping Stones Path -->
+  <g fill="#475569">
+    <ellipse cx="280" cy="540" rx="80" ry="25"/>
+    <ellipse cx="440" cy="580" rx="90" ry="28"/>
+    <ellipse cx="620" cy="550" rx="85" ry="26"/>
+    <ellipse cx="800" cy="600" rx="95" ry="30"/>
+    <ellipse cx="980" cy="570" rx="85" ry="26"/>
+  </g>
+
+  <!-- Big Ornamental Kamboja & Palms -->
+  <g>
+    <ellipse cx="180" cy="360" rx="90" ry="55" fill="#15803d"/>
+    <ellipse cx="170" cy="340" rx="75" ry="45" fill="#22c55e"/>
+    <!-- Flowers -->
+    <circle cx="150" cy="330" r="12" fill="#ffffff"/>
+    <circle cx="150" cy="330" r="4" fill="#facc15"/>
+    <circle cx="210" cy="350" r="14" fill="#ffffff"/>
+    <circle cx="210" cy="350" r="5" fill="#facc15"/>
+
+    <ellipse cx="880" cy="340" rx="100" ry="60" fill="#15803d"/>
+    <ellipse cx="870" cy="320" rx="85" ry="50" fill="#4ade80"/>
+    <circle cx="850" cy="310" r="14" fill="#ffffff"/>
+    <circle cx="850" cy="310" r="5" fill="#facc15"/>
+  </g>
+
+  <!-- White Coral Border -->
+  <g fill="#ffffff">
+    <ellipse cx="100" cy="460" rx="16" ry="8"/>
+    <ellipse cx="140" cy="462" rx="18" ry="9"/>
+    <ellipse cx="180" cy="458" rx="15" ry="7"/>
+    <ellipse cx="220" cy="465" rx="19" ry="9"/>
+    <ellipse cx="780" cy="460" rx="18" ry="8"/>
+    <ellipse cx="820" cy="463" rx="16" ry="8"/>
+    <ellipse cx="860" cy="458" rx="20" ry="9"/>
+  </g>
+
+  <!-- Stamp Badge -->
+  <rect x="40" y="40" width="260" height="50" rx="8" fill="#15803d"/>
+  <text x="170" y="72" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="18" text-anchor="middle">SELESAI (NUSAGARDEN)</text>
+</svg>

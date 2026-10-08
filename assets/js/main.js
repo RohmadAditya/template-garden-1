@@ -78,7 +78,19 @@ document.addEventListener('DOMContentLoaded', () => {
   if (baContainer) {
     const beforeEl = baContainer.querySelector('.ba-before');
     const handleEl = baContainer.querySelector('.ba-slider-handle');
+    const beforeImg = baContainer.querySelector('.ba-before img');
     let isDragging = false;
+
+    const syncContainerWidth = () => {
+      const rect = baContainer.getBoundingClientRect();
+      baContainer.style.setProperty('--ba-container-width', `${rect.width}px`);
+      if (beforeImg) {
+        beforeImg.style.width = `${rect.width}px`;
+      }
+    };
+
+    syncContainerWidth();
+    window.addEventListener('resize', syncContainerWidth);
 
     const updateSlider = (clientX) => {
       const rect = baContainer.getBoundingClientRect();
@@ -116,6 +128,16 @@ document.addEventListener('DOMContentLoaded', () => {
     baContainer.addEventListener('mousedown', startDragging);
     baContainer.addEventListener('touchstart', startDragging, { passive: true });
   }
+
+  // Global Image Error Handler (Graceful fallback)
+  document.querySelectorAll('img').forEach(img => {
+    img.addEventListener('error', () => {
+      if (!img.dataset.hasFallback) {
+        img.dataset.hasFallback = 'true';
+        img.src = 'assets/images/hero-garden.svg';
+      }
+    });
+  });
 
   // 5. Contact Consultation Form (Sends data directly to WhatsApp)
   const contactForm = document.getElementById('consultationForm');

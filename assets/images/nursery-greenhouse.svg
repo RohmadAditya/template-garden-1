@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="nurSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bae6fd"/>
+      <stop offset="100%" stop-color="#ecfdf5"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#nurSky)"/>
+  
+  <!-- Greenhouse Architecture (Glass Structure) -->
+  <polygon points="200,350 400,180 800,180 1000,350" fill="#38bdf8" opacity="0.3"/>
+  <rect x="200" y="350" width="800" height="250" fill="#0284c7" opacity="0.2"/>
+  <g stroke="#ffffff" stroke-width="4">
+    <line x1="400" y1="180" x2="400" y2="600"/>
+    <line x1="600" y1="180" x2="600" y2="600"/>
+    <line x1="800" y1="180" x2="800" y2="600"/>
+    <line x1="200" y1="350" x2="1000" y2="350"/>
+    <line x1="200" y1="480" x2="1000" y2="480"/>
+  </g>
+
+  <!-- Green Ground & Hundreds of Nursery Pots -->
+  <rect x="0" y="520" width="1200" height="280" fill="#15803d"/>
+  
+  <!-- Rows of Potted Plants in Nursery -->
+  <g fill="#22c55e">
+    <!-- Row 1 -->
+    <ellipse cx="100" cy="580" rx="35" ry="25"/>
+    <ellipse cx="180" cy="580" rx="35" ry="25"/>
+    <ellipse cx="260" cy="580" rx="35" ry="25"/>
+    <ellipse cx="340" cy="580" rx="35" ry="25"/>
+    <ellipse cx="420" cy="580" rx="35" ry="25"/>
+    <ellipse cx="500" cy="580" rx="35" ry="25"/>
+    <ellipse cx="580" cy="580" rx="35" ry="25"/>
+    <ellipse cx="660" cy="580" rx="35" ry="25"/>
+    <ellipse cx="740" cy="580" rx="35" ry="25"/>
+    <ellipse cx="820" cy="580" rx="35" ry="25"/>
+    <ellipse cx="900" cy="580" rx="35" ry="25"/>
+    <ellipse cx="980" cy="580" rx="35" ry="25"/>
+    <ellipse cx="1060" cy="580" rx="35" ry="25"/>
+    <!-- Row 2 -->
+    <ellipse cx="140" cy="660" rx="45" ry="30"/>
+    <ellipse cx="240" cy="660" rx="45" ry="30"/>
+    <ellipse cx="340" cy="660" rx="45" ry="30"/>
+    <ellipse cx="440" cy="660" rx="45" ry="30"/>
+    <ellipse cx="540" cy="660" rx="45" ry="30"/>
+    <ellipse cx="640" cy="660" rx="45" ry="30"/>
+    <ellipse cx="740" cy="660" rx="45" ry="30"/>
+    <ellipse cx="840" cy="660" rx="45" ry="30"/>
+    <ellipse cx="940" cy="660" rx="45" ry="30"/>
+    <ellipse cx="1040" cy="660" rx="45" ry="30"/>
+  </g>
+  <g fill="#4ade80">
+    <ellipse cx="100" cy="570" rx="25" ry="18"/>
+    <ellipse cx="180" cy="570" rx="25" ry="18"/>
+    <ellipse cx="260" cy="570" rx="25" ry="18"/>
+    <ellipse cx="340" cy="570" rx="25" ry="18"/>
+    <ellipse cx="420" cy="570" rx="25" ry="18"/>
+    <ellipse cx="500" cy="570" rx="25" ry="18"/>
+    <ellipse cx="580" cy="570" rx="25" ry="18"/>
+    <ellipse cx="660" cy="570" rx="25" ry="18"/>
+    <ellipse cx="740" cy="570" rx="25" ry="18"/>
+    <ellipse cx="820" cy="570" rx="25" ry="18"/>
+    <ellipse cx="900" cy="570" rx="25" ry="18"/>
+    <ellipse cx="980" cy="570" rx="25" ry="18"/>
+    <ellipse cx="1060" cy="570" rx="25" ry="18"/>
+  </g>
+
+  <!-- Title Badge -->
+  <rect x="40" y="40" width="300" height="50" rx="25" fill="#1b4332" opacity="0.9"/>
+  <text x="190" y="72" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="16" text-anchor="middle">Kebun Nursery & Greenhouse</text>
+</svg>

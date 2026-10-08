@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="minBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ecfdf5"/>
+      <stop offset="100%" stop-color="#d1fae5"/>
+    </linearGradient>
+    <linearGradient id="grass1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#22c55e"/>
+      <stop offset="100%" stop-color="#15803d"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#minBg)"/>
+  <!-- Minimalist Clean Wall -->
+  <rect x="0" y="80" width="800" height="300" fill="#f8fafc"/>
+  <rect x="100" y="130" width="220" height="200" fill="#0284c7" opacity="0.25" rx="8"/>
+  <rect x="360" y="110" width="400" height="240" fill="#e2e8f0" rx="8"/>
+
+  <!-- Grass Ground -->
+  <rect x="0" y="380" width="800" height="220" fill="url(#grass1)"/>
+  
+  <!-- Stepping Stones -->
+  <rect x="240" y="440" width="140" height="50" rx="8" fill="#64748b"/>
+  <rect x="420" y="480" width="150" height="55" rx="8" fill="#475569"/>
+  <rect x="180" y="520" width="160" height="50" rx="8" fill="#64748b"/>
+
+  <!-- White Coral Stones Border -->
+  <g fill="#ffffff" opacity="0.9">
+    <ellipse cx="80" cy="400" rx="20" ry="10"/>
+    <ellipse cx="120" cy="405" rx="18" ry="9"/>
+    <ellipse cx="160" cy="402" rx="22" ry="11"/>
+    <ellipse cx="640" cy="410" rx="24" ry="12"/>
+    <ellipse cx="680" cy="408" rx="20" ry="10"/>
+    <ellipse cx="720" cy="412" rx="22" ry="11"/>
+  </g>
+
+  <!-- Architectural Plants (Sikas & Snake Plants) -->
+  <path d="M120,480 Q100,320 60,260 Q120,320 140,480 Z" fill="#166534"/>
+  <path d="M140,480 Q140,280 130,220 Q160,290 150,480 Z" fill="#22c55e"/>
+  <path d="M150,480 Q180,310 220,250 Q170,330 160,480 Z" fill="#15803d"/>
+
+  <path d="M680,480 Q660,340 630,280 Q680,330 690,480 Z" fill="#166534"/>
+  <path d="M690,480 Q710,310 740,240 Q710,320 700,480 Z" fill="#22c55e"/>
+
+  <rect x="30" y="30" width="220" height="40" rx="20" fill="#1b4332"/>
+  <text x="140" y="55" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="14" text-anchor="middle">Backyard Summarecon</text>
+</svg>

@@ -1274,15 +1274,24 @@ p:last-child { margin-bottom: 0; }
 }
 
 .ba-before {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 50%;
+  height: 100%;
   overflow: hidden;
   z-index: 2;
   border-right: 3px solid var(--white);
 }
 
 .ba-before img {
-  width: 900px; /* match container width */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: var(--ba-container-width, 900px);
+  height: 100%;
   max-width: none;
+  object-fit: cover;
 }
 
 .ba-label {
