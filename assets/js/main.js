@@ -161,7 +161,7 @@ document.addEventListener('DOMContentLoaded', () => {
         `Mohon info estimasi jadwal survey dan konsultasi gratis. Terima kasih!`;
 
       const encoded = encodeURIComponent(waMessage);
-      const waNumber = '6281234567890'; // Business WhatsApp
+      const waNumber = '628998183329'; // Business WhatsApp
       window.open(`https://wa.me/${waNumber}?text=${encoded}`, '_blank');
     });
   }

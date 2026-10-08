@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
         `Saya tertarik ingin berkonsultasi lebih lanjut dan jadwal survey lokasi. Apakah bisa dibantu?`;
 
       const encoded = encodeURIComponent(waText);
-      btnSendWa.href = `https://wa.me/6281234567890?text=${encoded}`;
+      btnSendWa.href = `https://wa.me/628998183329?text=${encoded}`;
     }
   }
 
